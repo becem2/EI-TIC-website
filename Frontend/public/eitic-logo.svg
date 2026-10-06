@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 325" role="img" aria-labelledby="title desc">
+  <title id="title">EI&amp;TIC Laboratoire de Recherche</title>
+  <desc id="desc">Logo EI&amp;TIC avec arches violettes et cyan</desc>
+  <rect width="620" height="325" fill="#fff"/>
+  <g fill="none" stroke="#24127f" stroke-width="15" stroke-linecap="round">
+    <path d="M18 142 Q68 38 119 142 Q172 -10 263 142 Q354 -80 474 142"/>
+    <path d="M19 142 H119 M119 142 H263 M263 142 H474"/>
+  </g>
+  <g fill="#08a4c7">
+    <path d="M93 143 Q139 58 184 143 Q225 69 263 143 Q350 -30 506 143 H474 Q354 31 263 143 Q222 92 184 143 Q139 78 119 143 Z"/>
+  </g>
+  <g fill="#24127f">
+    <path d="M48 142 V92 H59 V142 Z M66 142 V72 H77 V142 Z M84 142 V88 H95 V142 Z"/>
+    <path d="M160 142 V83 H172 V142 Z M181 142 V67 H193 V142 Z M202 142 V94 H214 V142 Z"/>
+    <path d="M315 142 V48 H332 V142 Z M347 142 V27 H364 V142 Z M379 142 V49 H396 V142 Z M411 142 V77 H428 V142 Z"/>
+  </g>
+  <g fill="#24127f" font-family="Arial, Helvetica, sans-serif" font-style="italic">
+    <text x="6" y="227" font-size="92" font-weight="700" letter-spacing="-4">EI&amp;TIC</text>
+    <text x="2" y="263" font-size="27" letter-spacing="8">Laboratoire de Recherche</text>
+    <text x="11" y="310" font-size="23" letter-spacing="4">ELECTRICITE INTELLIGENTE &amp; TIC</text>
+  </g>
+  <path d="M0 143 H620" stroke="#08a4c7" stroke-width="5"/>
+</svg>

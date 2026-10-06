@@ -1,0 +1,804 @@
+%PDF-1.4
+%TECHGUIDE
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R] /Count 11 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2261 >>
+stream
+1.000 1.000 1.000 rg 0.00 0.00 595.28 841.89 re f
+0.145 0.388 0.922 rg 0.00 829.89 595.28 12.00 re f
+0.063 0.137 0.247 rg 0.00 499.89 595.28 330.00 re f
+0.616 0.741 1.000 rg BT /F2 10 Tf 1 0 0 1 54.00 776.89 Tm (ENGINEERING FIELD GUIDE) Tj ET
+1.000 1.000 1.000 rg BT /F2 31 Tf 1 0 0 1 54.00 709.89 Tm (Website Technical) Tj ET
+1.000 1.000 1.000 rg BT /F2 29 Tf 1 0 0 1 54.00 669.89 Tm (Architecture & Systems) Tj ET
+0.863 0.910 0.980 rg BT /F1 12 Tf 1 0 0 1 56.00 630.89 Tm (A practical map of the EI&TIC research-laboratory web application) Tj ET
+0.145 0.388 0.922 rg 55.00 590.89 485.00 1.00 re f
+0.616 0.741 1.000 rg BT /F2 9 Tf 1 0 0 1 56.00 558.89 Tm (FRONTEND) Tj ET
+1.000 1.000 1.000 rg BT /F2 13 Tf 1 0 0 1 56.00 536.89 Tm (React 19 + TypeScript + Vite) Tj ET
+0.616 0.741 1.000 rg BT /F2 9 Tf 1 0 0 1 56.00 492.89 Tm (API / SERVER) Tj ET
+1.000 1.000 1.000 rg BT /F2 13 Tf 1 0 0 1 56.00 470.89 Tm (Node.js + Express 5 + MongoDB / Mongoose) Tj ET
+0.616 0.741 1.000 rg BT /F2 9 Tf 1 0 0 1 56.00 426.89 Tm (DATA FLOW) Tj ET
+0.114 0.227 0.388 rg 55.00 359.89 138.00 47.00 re f
+0.114 0.227 0.388 rg 218.00 359.89 138.00 47.00 re f
+0.114 0.227 0.388 rg 381.00 359.89 159.00 47.00 re f
+1.000 1.000 1.000 rg BT /F2 11 Tf 1 0 0 1 76.00 377.89 Tm (Browser UI) Tj ET
+1.000 1.000 1.000 rg BT /F2 11 Tf 1 0 0 1 244.00 377.89 Tm (HTTP API) Tj ET
+1.000 1.000 1.000 rg BT /F2 11 Tf 1 0 0 1 424.00 377.89 Tm (MongoDB) Tj ET
+0.784 0.843 0.925 rg BT /F1 8 Tf 1 0 0 1 76.00 364.89 Tm (React / Vite) Tj ET
+0.784 0.843 0.925 rg BT /F1 8 Tf 1 0 0 1 244.00 364.89 Tm (Express / JSON) Tj ET
+0.784 0.843 0.925 rg BT /F1 8 Tf 1 0 0 1 424.00 364.89 Tm (Mongoose) Tj ET
+0.514 0.686 1.000 RG 2 w 193 383.89 m 218 383.89 l S
+0.514 0.686 1.000 RG 2 w 356 383.89 m 381 383.89 l S
+0.094 0.141 0.200 rg BT /F1 10 Tf 1 0 0 1 55.00 311.89 Tm (Pages, technologies, API wiring, data models, algorithms, authentication, uploads and setup.) Tj ET
+0.322 0.380 0.455 rg BT /F1 9 Tf 1 0 0 1 55.00 289.89 Tm (Generated from the checked-out source tree. Secrets and .env values are intentionally excluded.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 55.00 51.89 Tm (PROJECT ROOT / REPOSITORY SNAPSHOT) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 397.00 51.89 Tm (WEBSITE TECHNICAL GUIDE) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 6045 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (2) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 773.89 Tm (Contents) Tj ET
+0.145 0.388 0.922 RG 2 w 53 765.89 m 542 765.89 l S
+0.145 0.388 0.922 rg 55.00 749.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 746.89 Tm (1. Executive overview) Tj ET
+0.145 0.388 0.922 rg 55.00 731.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 728.89 Tm (2. Technology inventory) Tj ET
+0.145 0.388 0.922 rg 55.00 713.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 710.89 Tm (3. Runtime architecture and request path) Tj ET
+0.145 0.388 0.922 rg 55.00 695.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 692.89 Tm (4. Frontend pages and user experience) Tj ET
+0.145 0.388 0.922 rg 55.00 677.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 674.89 Tm (5. Active API route catalog) Tj ET
+0.145 0.388 0.922 rg 55.00 659.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 656.89 Tm (6. Authentication, roles and access control) Tj ET
+0.145 0.388 0.922 rg 55.00 641.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 638.89 Tm (7. MongoDB entities and relationships) Tj ET
+0.145 0.388 0.922 rg 55.00 623.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 620.89 Tm (8. Algorithms and business workflows) Tj ET
+0.145 0.388 0.922 rg 55.00 605.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 602.89 Tm (9. File handling and publication lifecycle) Tj ET
+0.145 0.388 0.922 rg 55.00 587.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 584.89 Tm (10. Styling, UI libraries and assets) Tj ET
+0.145 0.388 0.922 rg 55.00 569.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 566.89 Tm (11. Configuration and local development) Tj ET
+0.145 0.388 0.922 rg 55.00 551.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 548.89 Tm (12. Build, lint and deployment notes) Tj ET
+0.145 0.388 0.922 rg 55.00 533.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 530.89 Tm (13. Source tree map and runtime caveats) Tj ET
+0.145 0.388 0.922 rg 55.00 515.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 512.89 Tm (14. Operational observations and verification checklist) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 484.89 Tm (1. Executive overview) Tj ET
+0.145 0.388 0.922 RG 2 w 53 476.89 m 542 476.89 l S
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 457.89 Tm (This repository contains a research-laboratory website branded for EI&TIC. The public experience) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 443.89 Tm (presents research areas, researchers, publications, news and collaboration information. Registered) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 429.89 Tm (accounts can manage a researcher profile, submit publications or news, request access to private) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 415.89 Tm (publication PDFs, and receive notifications. Administrators review submissions and manage users and) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 401.89 Tm (content.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 380.89 Tm (The implementation is a JavaScript/TypeScript MERN-style application: React renders the browser UI;) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 366.89 Tm (Vite serves and builds the frontend; Express exposes the HTTP API; Mongoose defines MongoDB) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 352.89 Tm (documents and queries. Authentication is cookie-based JWT. Uploaded publication PDFs and news images) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 338.89 Tm (are stored on the server filesystem.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 313.89 Tm (At a glance) Tj ET
+0.145 0.388 0.922 rg 55.00 299.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 296.89 Tm (Frontend: React 19, TypeScript 6, React Router 7, Vite 8 and Tailwind CSS 4.) Tj ET
+0.145 0.388 0.922 rg 55.00 281.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 278.89 Tm (Backend: Node.js ES modules, Express 5, Mongoose 8, MongoDB, JSON APIs and Multer disk uploads.) Tj ET
+0.145 0.388 0.922 rg 55.00 263.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 260.89 Tm (Identity: local email/password with email verification; Google ID token verification; role-based) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 247.89 Tm (admin/member/visitor access.) Tj ET
+0.145 0.388 0.922 rg 55.00 232.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 229.89 Tm (Research workflows: publication approvals, profile publication summaries, private-PDF access) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 216.89 Tm (requests, notifications and news approvals.) Tj ET
+0.937 0.961 1.000 rg 53.00 125.89 489.00 82.00 re f
+0.961 0.620 0.043 rg 53.00 125.89 3.00 82.00 re f
+0.063 0.137 0.247 rg BT /F2 9.4 Tf 1 0 0 1 65.00 193.89 Tm (Runtime source of truth) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 178.89 Tm (Backend/server.js imports Backend/routes/auth.js and mounts it at /api/users. This combined) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 165.89 Tm (router is the live endpoint source in the current server entry point. The separate) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 152.89 Tm (auth.routes.js, publication.routes.js and user.routes.js files are present but not mounted by) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 139.89 Tm (that entry point.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 6699 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (3) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 773.89 Tm (2. Technology inventory) Tj ET
+0.145 0.388 0.922 RG 2 w 53 765.89 m 542 765.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 742.89 Tm (Server-side runtime and packages) Tj ET
+0.145 0.388 0.922 rg 55.00 728.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 725.89 Tm (Node.js with ECMAScript modules \(package.json sets type=module\); Express 5.1 for HTTP endpoints and) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 712.89 Tm (middleware.) Tj ET
+0.145 0.388 0.922 rg 55.00 697.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 694.89 Tm (MongoDB with Mongoose 8.16 for document schemas, indexes, model operations and references.) Tj ET
+0.145 0.388 0.922 rg 55.00 679.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 676.89 Tm (bcryptjs hashes and checks local passwords; jsonwebtoken issues/verifies signed sessions; crypto) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 663.89 Tm (creates opaque tokens, UUIDs, hashes and verification codes.) Tj ET
+0.145 0.388 0.922 rg 55.00 648.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 645.89 Tm (google-auth-library validates Google Identity Services ID tokens against the configured OAuth client) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 632.89 Tm (ID.) Tj ET
+0.145 0.388 0.922 rg 55.00 617.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 614.89 Tm (Nodemailer sends email-verification and password-reset messages using SMTP configuration.) Tj ET
+0.145 0.388 0.922 rg 55.00 599.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 596.89 Tm (Multer writes PDFs and images to disk; express-rate-limit throttles authentication, updates, access) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 583.89 Tm (requests and uploads; Helmet applies common HTTP security headers.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 561.89 Tm (Browser-side packages) Tj ET
+0.145 0.388 0.922 rg 55.00 547.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 544.89 Tm (React 19 / React DOM 19 and TypeScript 6; Vite 8 with the React and Tailwind Vite plugins.) Tj ET
+0.145 0.388 0.922 rg 55.00 529.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 526.89 Tm (React Router DOM 7 for client-side routes; Axios and Fetch for API calls.) Tj ET
+0.145 0.388 0.922 rg 55.00 511.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 508.89 Tm (Tailwind CSS 4, shadcn-related theme CSS, tw-animate-css, Base UI React, class-variance-authority,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 495.89 Tm (clsx and tailwind-merge for styling and UI composition.) Tj ET
+0.145 0.388 0.922 rg 55.00 480.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 477.89 Tm (Lucide React for icons; Motion for animation; Three.js for canvas / visual effects; Recharts for data) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 464.89 Tm (visualization.) Tj ET
+0.145 0.388 0.922 rg 55.00 449.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 446.89 Tm (xlsx \(SheetJS\) is imported by the admin UI for spreadsheet export; Geist Variable is packaged) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 433.89 Tm (locally. Inter and Plus Jakarta Sans are also referenced via Google Fonts in the CSS.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 411.89 Tm (Build and quality tools) Tj ET
+0.145 0.388 0.922 rg 55.00 397.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 394.89 Tm (Frontend build runs TypeScript project build \(tsc -b\) before Vite production bundling. Oxlint is) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 381.89 Tm (configured as the frontend linter.) Tj ET
+0.145 0.388 0.922 rg 55.00 366.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 363.89 Tm (Root scripts: npm run dev starts Backend/server.js; npm run build delegates to the frontend build.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 350.89 Tm (Frontend additionally has dev, lint and preview scripts.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 332.89 Tm (Versions above are the version ranges declared in the package manifests, not a claim that every) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 318.89 Tm (runtime version was independently tested. The root package owns backend dependencies;) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 304.89 Tm (Frontend/package.json owns browser dependencies.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 273.89 Tm (3. Runtime architecture and request path) Tj ET
+0.145 0.388 0.922 RG 2 w 53 265.89 m 542 265.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 242.89 Tm (System boundary) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 225.89 Tm (During frontend development, the browser visits the Vite app \(normally localhost:5173\).) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 211.89 Tm (Frontend/vite.config.ts proxies /api and /uploads to http://localhost:5000. The browser therefore) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 197.89 Tm (calls relative paths such as /api/users/login and /api/users/publications without hardcoding the API) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 183.89 Tm (host in each component.) Tj ET
+0.969 0.976 0.988 rg 53.00 72.89 489.00 100.00 re f
+0.145 0.388 0.922 rg 53.00 72.89 3.00 100.00 re f
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 162.89 Tm (Browser React page / component) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 150.89 Tm (-> Axios or Fetch: /api/users/... \(relative URL\)) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 138.89 Tm (-> Vite dev proxy: http://localhost:5000) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 126.89 Tm (-> Express middleware, active router and authorization) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 114.89 Tm (-> Mongoose model/query) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 102.89 Tm (-> MongoDB collection) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 90.89 Tm (<- JSON response, cookie, or streamed file) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 6818 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (4) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 771.89 Tm (Server startup and middleware order) Tj ET
+0.145 0.388 0.922 rg 55.00 757.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 754.89 Tm (Backend/server.js loads environment configuration, disables the x-powered-by header, enables Helmet) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 741.89 Tm (and parses JSON request bodies up to 5 MB.) Tj ET
+0.145 0.388 0.922 rg 55.00 726.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 723.89 Tm (It serves /uploads/actualites as static content only when the requested file extension is jpg, jpeg,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 710.89 Tm (png, webp or gif.) Tj ET
+0.145 0.388 0.922 rg 55.00 695.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 692.89 Tm (A request logger prints method and path. /health returns a small JSON health response.) Tj ET
+0.145 0.388 0.922 rg 55.00 677.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 674.89 Tm (Mutating /api/users requests with an Origin header are rejected when the origin differs from APP_URL;) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 661.89 Tm (GET, HEAD and OPTIONS bypass this check. Requests without Origin are not rejected by this middleware.) Tj ET
+0.145 0.388 0.922 rg 55.00 646.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 643.89 Tm (The app mounts Backend/routes/auth.js at /api/users. Before listening, it connects to MongoDB,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 630.89 Tm (ensures actualites collection existence, and warns when legacy publication collections are present.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 608.89 Tm (Payload and response formats) Tj ET
+0.145 0.388 0.922 rg 55.00 594.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 591.89 Tm (Most API operations exchange JSON. Publication and news submissions use multipart/form-data so a file) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 578.89 Tm (can accompany metadata.) Tj ET
+0.145 0.388 0.922 rg 55.00 563.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 560.89 Tm (The API uses MongoDB ObjectId values in resource URLs and responses. Public publication listing) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 547.89 Tm (removes filesystem paths and private access-user IDs from the response.) Tj ET
+0.145 0.388 0.922 rg 55.00 532.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 529.89 Tm (The PDF endpoint streams the file, while news images are referenced through /uploads/actualites/...) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 516.89 Tm (URLs.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 488.89 Tm (4. Frontend pages and user experience) Tj ET
+0.145 0.388 0.922 RG 2 w 53 480.89 m 542 480.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 457.89 Tm (Client-side routes \(case-sensitive paths as coded\)) Tj ET
+0.145 0.388 0.922 rg 55.00 443.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 440.89 Tm (/ and unknown paths redirect to /Acceuil. The navigation bar links to /Acceuil, /Publications,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 427.89 Tm (/Chercheurs, /Actualites and /Collaboration.) Tj ET
+0.145 0.388 0.922 rg 55.00 412.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 409.89 Tm (/Acceuil: landing/home page with lab highlights, research content, statistics, news and calls to) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 396.89 Tm (action. Some stats and featured content are local demo data; researchers, publications and news are) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 383.89 Tm (also requested from the API.) Tj ET
+0.145 0.388 0.922 rg 55.00 368.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 365.89 Tm (/AxesdeRecherche: research-axis overview. The current page includes static example axes.) Tj ET
+0.145 0.388 0.922 rg 55.00 350.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 347.89 Tm (/Chercheurs: public researcher directory, researcher cards, profile details and navigation to a) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 334.89 Tm (profile.) Tj ET
+0.145 0.388 0.922 rg 55.00 319.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 316.89 Tm (/Publications: publication list, search/filter/sort, publication cards, PDF modal, private-access) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 303.89 Tm (status/request, and member/admin submission form.) Tj ET
+0.145 0.388 0.922 rg 55.00 288.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 285.89 Tm (/Actualites: news listing/detail experience and a submission form for eligible accounts; fallback) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 272.89 Tm (article data exists in the page.) Tj ET
+0.145 0.388 0.922 rg 55.00 257.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 254.89 Tm (/Collaboration: collaboration information page, currently static content.) Tj ET
+0.145 0.388 0.922 rg 55.00 239.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 236.89 Tm (/Profile: signed-in user's profile, or a public profile when researcherId is supplied in the query) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 223.89 Tm (string. ProfileExperience contains sections for education, work history, skills, languages, links,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 210.89 Tm (research and publications.) Tj ET
+0.145 0.388 0.922 rg 55.00 195.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 192.89 Tm (/AdminDashboard: admin-only dashboard with statistics, user/content management, pending-review queues) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 179.89 Tm (and publication/news editing.) Tj ET
+0.145 0.388 0.922 rg 55.00 164.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 161.89 Tm (/SignIn and /SignUp: local and Google account flows. /ForgotPassword, /ResetPassword and /VerifyEmail) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 148.89 Tm (cover account recovery and verification.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 126.89 Tm (Application state and presentation) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 6841 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (5) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 775.89 Tm (App.tsx holds the current user in React state, fetches /api/users/me on load and redirects) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 761.89 Tm (unauthenticated admin access to sign-in. Role 0 users can enter the admin dashboard. Navbar presents) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 747.89 Tm (menus, session logout, notifications and polling. The UI is localized largely in French; route names) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 733.89 Tm (and code identifiers use mixed French/English.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 712.89 Tm (PublicationsView applies client-side filters and sorting, then reveals three more items when an) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 698.89 Tm (IntersectionObserver sentinel approaches the viewport. The PDF modal checks access status, requests) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 684.89 Tm (private access when necessary, and fetches PDF bytes for display.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 653.89 Tm (5. Active API route catalog) Tj ET
+0.145 0.388 0.922 RG 2 w 53 645.89 m 542 645.89 l S
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 626.89 Tm (All paths below are prefixed with /api/users because the live server mounts the combined auth router) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 612.89 Tm (at that prefix. Method names and paths are taken from Backend/routes/auth.js. Most administrative) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 598.89 Tm (endpoints require an authenticated role-0 user even where the route middleware is written as protect) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 584.89 Tm (followed by a role check.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 559.89 Tm (Account and identity) Tj ET
+0.145 0.388 0.922 rg 55.00 545.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 542.89 Tm (POST /register or /SignUp: create a visitor account and pending user request; send a verification) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 529.89 Tm (code.) Tj ET
+0.145 0.388 0.922 rg 55.00 514.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 511.89 Tm (POST /login or /SignIn: validate email/password, require verified local email, issue auth cookie.) Tj ET
+0.145 0.388 0.922 rg 55.00 496.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 493.89 Tm (POST /google/profile: validate a Google credential and return profile details for the registration) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 480.89 Tm (form.) Tj ET
+0.145 0.388 0.922 rg 55.00 465.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 462.89 Tm (POST /google: create/find Google-backed account, optionally create a pending user request, and issue) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 449.89 Tm (auth cookie.) Tj ET
+0.145 0.388 0.922 rg 55.00 434.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 431.89 Tm (GET /verify-email?token=...; POST /verify-email-code; POST /resend-verification.) Tj ET
+0.145 0.388 0.922 rg 55.00 416.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 413.89 Tm (POST /forgot-password; POST /reset-password; GET /me; PUT /me; POST /logout.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 391.89 Tm (Researcher directory and publications) Tj ET
+0.145 0.388 0.922 rg 55.00 377.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 374.89 Tm (GET /researchers: public profiles for enabled role-0/role-1 accounts plus approved publication) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 361.89 Tm (summaries.) Tj ET
+0.145 0.388 0.922 rg 55.00 346.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 343.89 Tm (GET /publications: approved, enabled publications, newest year first; strips private file-system and) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 330.89 Tm (access-list fields.) Tj ET
+0.145 0.388 0.922 rg 55.00 315.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 312.89 Tm (POST /publications: member/admin multipart submission with required PDF; new submissions start) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 299.89 Tm (pending.) Tj ET
+0.145 0.388 0.922 rg 55.00 284.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 281.89 Tm (GET /publications/:id/pdf: controlled PDF streaming; checks approval, account, author/admin or) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 268.89 Tm (access-request grant, and increments downloads.) Tj ET
+0.145 0.388 0.922 rg 55.00 253.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 250.89 Tm (POST /publications/:id/access-request; GET /publications/:id/access-status.) Tj ET
+0.145 0.388 0.922 rg 55.00 235.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 232.89 Tm (DELETE /publications/:id: admin soft-delete by changing status to deleted.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 210.89 Tm (Notifications and news) Tj ET
+0.145 0.388 0.922 rg 55.00 196.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 193.89 Tm (GET /notifications: current user's newest notifications, limited to 50, with populated access-request) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 180.89 Tm (context.) Tj ET
+0.145 0.388 0.922 rg 55.00 165.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 162.89 Tm (PATCH /notifications/:id/read: mark only the current recipient's notification as read.) Tj ET
+0.145 0.388 0.922 rg 55.00 147.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 144.89 Tm (POST /publication-access-requests/:id/decision with approved or rejected: decision by the responsible) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 131.89 Tm (author; approval grants PDF access and notifies the requester.) Tj ET
+0.145 0.388 0.922 rg 55.00 116.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 113.89 Tm (GET /actualites: approved news, newest first. POST /actualites: member/admin multipart news) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 100.89 Tm (submission; status is pending.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 78.89 Tm (Administrator routes) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 7269 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (6) Tj ET
+0.145 0.388 0.922 rg 55.00 778.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 775.89 Tm (GET /admin/stats; GET /admin/users; PUT /admin/users/:id; PUT /admin/users/:id/disable; PUT) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 762.89 Tm (/admin/users/:id/restore.) Tj ET
+0.145 0.388 0.922 rg 55.00 747.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 744.89 Tm (GET /admin/pending-users; POST /admin/pending-users/:id/approve; POST) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 731.89 Tm (/admin/pending-users/:id/reject.) Tj ET
+0.145 0.388 0.922 rg 55.00 716.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 713.89 Tm (GET /admin/publications; PUT /admin/publications/:id; PUT /admin/publications/:id/disable; PUT) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 700.89 Tm (/admin/publications/:id/restore.) Tj ET
+0.145 0.388 0.922 rg 55.00 685.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 682.89 Tm (GET /admin/pending-publications; POST /admin/pending-publications/:id/approve; POST) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 669.89 Tm (/admin/pending-publications/:id/reject.) Tj ET
+0.145 0.388 0.922 rg 55.00 654.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 651.89 Tm (GET /admin/actualites; GET /admin/pending-actualites; PUT /admin/actualites/:id; POST) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 638.89 Tm (/admin/pending-actualites/:id/approve or /reject.) Tj ET
+0.937 0.961 1.000 rg 53.00 560.89 489.00 69.00 re f
+0.961 0.620 0.043 rg 53.00 560.89 3.00 69.00 re f
+0.063 0.137 0.247 rg BT /F2 9.4 Tf 1 0 0 1 65.00 615.89 Tm (Do not confuse code presence with mounted routes) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 600.89 Tm (The newer split routers define /api/publications-style and /api/users-style route sets but are) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 587.89 Tm (not imported by Backend/server.js. Frontend calls currently use /api/users/publications,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 574.89 Tm (/api/users/researchers and similar paths handled by auth.js.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 536.89 Tm (6. Authentication, roles and access control) Tj ET
+0.145 0.388 0.922 RG 2 w 53 528.89 m 542 528.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 505.89 Tm (Account lifecycle) Tj ET
+0.145 0.388 0.922 rg 55.00 491.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 488.89 Tm (Local signup normalizes email to lowercase, creates role 2 \(visitor\), stores a bcryptjs-hashed) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 475.89 Tm (password, creates a PendingUserRequest, then emails a random six-digit code. The code hash is stored) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 462.89 Tm (and expires after 15 minutes.) Tj ET
+0.145 0.388 0.922 rg 55.00 447.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 444.89 Tm (Google ID tokens are verified server-side with the configured audience. Verified Google users can) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 431.89 Tm (sign in without the local email-code step; new accounts are visitors and enter the pending-user) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 418.89 Tm (workflow.) Tj ET
+0.145 0.388 0.922 rg 55.00 403.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 400.89 Tm (Local sign-in rejects unverified accounts. Password reset tokens are random and opaque; only SHA-256) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 387.89 Tm (token hashes are stored, and reset expires in 60 minutes.) Tj ET
+0.145 0.388 0.922 rg 55.00 372.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 369.89 Tm (A signed JWT contains user id, unique jti and auth-version number; expiry is 30 days. It is put in an) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 356.89 Tm (HttpOnly, SameSite=Strict cookie, Secure when production or APP_URL uses HTTPS.) Tj ET
+0.145 0.388 0.922 rg 55.00 341.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 338.89 Tm (protect reads the cookie, verifies JWT signature and expiry, checks revoked-token records, validates) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 325.89 Tm (user id, rejects disabled accounts and compares authVersion. It attaches the database user to the) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 312.89 Tm (request.) Tj ET
+0.145 0.388 0.922 rg 55.00 297.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 294.89 Tm (Logout stores the token jti through its expiry and clears the cookie. A TTL index eventually removes) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 281.89 Tm (expired revocation records. Password reset increments authVersion to invalidate older issued) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 268.89 Tm (sessions.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 246.89 Tm (Role map and protected actions) Tj ET
+0.145 0.388 0.922 rg 55.00 232.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 229.89 Tm (Role 0 = administrator; role 1 = approved researcher/member; role 2 = visitor/default account.) Tj ET
+0.145 0.388 0.922 rg 55.00 214.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 211.89 Tm (Public researcher listing includes enabled role-0 and role-1 users. Publication/news submission is) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 198.89 Tm (limited to roles 0 and 1. Admin queues and management are role 0 only.) Tj ET
+0.145 0.388 0.922 rg 55.00 183.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 180.89 Tm (Private PDFs are available to an author, administrator, explicitly granted user, or user with an) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 167.89 Tm (approved access request. Non-private approved PDFs are public.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 145.89 Tm (Abuse controls visible in the active router) Tj ET
+0.145 0.388 0.922 rg 55.00 131.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 128.89 Tm (Authentication endpoints: 20 requests / 15 minutes per limiter key. Profile updates: 60 / 15 minutes;) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 115.89 Tm (publication access requests: 30 / 15 minutes; uploads: 10 / 15 minutes.) Tj ET
+0.145 0.388 0.922 rg 55.00 100.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 97.89 Tm (Reset/verification endpoints return generic messages in selected cases to reduce account-existence) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 84.89 Tm (disclosure. Credentials and password-reset values are not included in this guide.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 6764 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (7) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 773.89 Tm (7. MongoDB entities and relationships) Tj ET
+0.145 0.388 0.922 RG 2 w 53 765.89 m 542 765.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 742.89 Tm (Collections and key fields) Tj ET
+0.145 0.388 0.922 rg 55.00 728.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 725.89 Tm (User: identity/email/password hash, provider/Google ID, email verification/reset hashes and expiry) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 712.89 Tm (times, authVersion, role/disabled flag, profile data, education, work history, languages, linked) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 699.89 Tm (accounts, skills/research axes and denormalized publication summaries.) Tj ET
+0.145 0.388 0.922 rg 55.00 684.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 681.89 Tm (Publication \(collection explicitly named publications\): title/type/year, abstract and article) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 668.89 Tm (sections, journal/DOI/keywords/citation/download counts, authors with optional User references,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 655.89 Tm (submitter, status, PDF path, privacy/access users and publication-type detail fields.) Tj ET
+0.145 0.388 0.922 rg 55.00 640.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 637.89 Tm (PendingUserRequest: one unique request per user with status pending/approved/rejected.) Tj ET
+0.145 0.388 0.922 rg 55.00 622.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 619.89 Tm (PublicationAccessRequest: references a publication, requester and responsible author; unique index on) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 606.89 Tm (publication + requester; status pending/approved/rejected.) Tj ET
+0.145 0.388 0.922 rg 55.00 591.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 588.89 Tm (Notification: recipient, type, access-request reference, message and readAt timestamp.) Tj ET
+0.145 0.388 0.922 rg 55.00 573.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 570.89 Tm (Actualite: news title/category/date/content/excerpt/image, submitter, important flag and moderation) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 557.89 Tm (status.) Tj ET
+0.145 0.388 0.922 rg 55.00 542.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 539.89 Tm (RevokedToken: unique jti plus expiry date, with MongoDB TTL index.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 517.89 Tm (Relationships and consistency) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 500.89 Tm (Mongoose refs connect access requests to Publication and User records, and notifications to) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 486.89 Tm (recipients and access requests. Publication authors can link to researcher accounts. On approval,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 472.89 Tm (publication summaries are copied into each linked User.publications array; updates remove the old) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 458.89 Tm (summary and add a new one. This denormalizes data to simplify profile displays but creates) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 444.89 Tm (synchronization work.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 423.89 Tm (Important indexes include user role/disabled/creation time and verification/reset hashes;) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 409.89 Tm (publication moderation status, year, submitter, author and privacy; actualite) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 395.89 Tm (moderation/category/importance; access-request uniqueness and author/status; notification) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 381.89 Tm (recipient/time; revoked-token TTL.) Tj ET
+0.969 0.976 0.988 rg 53.00 294.89 489.00 76.00 re f
+0.145 0.388 0.922 rg 53.00 294.89 3.00 76.00 re f
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 360.89 Tm (User \(1\) ----< PendingUserRequest) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 348.89 Tm (User \(author/requester\) ----< PublicationAccessRequest >---- Publication) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 336.89 Tm (User \(recipient\) ----< Notification >---- PublicationAccessRequest) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 324.89 Tm (Publication ----< authors[] \(optional User links\)) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 312.89 Tm (User.publications[] = denormalized summaries of approved Publication records) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 267.89 Tm (8. Algorithms and business workflows) Tj ET
+0.145 0.388 0.922 RG 2 w 53 259.89 m 542 259.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 236.89 Tm (Publication discovery) Tj ET
+0.145 0.388 0.922 rg 55.00 222.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 219.89 Tm (The browser first filters by exact year, publication type and researcher \(linked author or) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 206.89 Tm (submitter\). Keyword search is case-insensitive substring matching over title, abstract, journal,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 193.89 Tm (author names and keywords.) Tj ET
+0.145 0.388 0.922 rg 55.00 178.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 175.89 Tm (Results sort by citations descending, title alphabetically, or year descending. The list initially) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 162.89 Tm (shows 3 items; an IntersectionObserver with a 300 px root margin reveals the next 3.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 140.89 Tm (Publication submit -> moderation -> profile sync) Tj ET
+0.145 0.388 0.922 rg 55.00 126.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 123.89 Tm (Member/admin sends multipart metadata plus PDF. Server validates required title/type/year/file,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 110.89 Tm (normalizes strings, parses details/authors/keywords, and ensures the submitter is included as an) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 97.89 Tm (author if not already linked.) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 7278 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (8) Tj ET
+0.145 0.388 0.922 rg 55.00 778.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 775.89 Tm (Publication record is created with pending status. Admin approval changes status to approved and) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 762.89 Tm (syncs a compact publication summary to the submitter and linked researcher profiles; rejection leaves) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 749.89 Tm (it out of public listing.) Tj ET
+0.145 0.388 0.922 rg 55.00 734.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 731.89 Tm (Public list only returns approved and enabled records. PDF access is separately authorized; the PDF) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 718.89 Tm (filesystem path is not included in list responses.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 696.89 Tm (Private publication PDF request) Tj ET
+0.145 0.388 0.922 rg 55.00 682.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 679.89 Tm (For an approved private publication, a signed-in non-author submits one access request. The unique) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 666.89 Tm (publication/requester index prevents duplicate records; an existing rejected request can be returned) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 653.89 Tm (to pending.) Tj ET
+0.145 0.388 0.922 rg 55.00 638.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 635.89 Tm (The responsible author receives an in-app notification. On approval, the request status changes,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 622.89 Tm (requester id is added to pdfAccessUsers, and a decision notification is sent. The PDF authorization) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 609.89 Tm (middleware also accepts author/admin identities and approved requests.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 587.89 Tm (User and news moderation) Tj ET
+0.145 0.388 0.922 rg 55.00 573.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 570.89 Tm (Signup creates visitor role and pending-user request. Admin approval promotes the account to role 1) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 557.89 Tm (\(researcher\); rejection changes request status.) Tj ET
+0.145 0.388 0.922 rg 55.00 542.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 539.89 Tm (Member/admin-submitted news receives pending status. Admin may approve/reject it and edit fields.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 526.89 Tm (Public news API filters to approved records.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 504.89 Tm (Password feedback and profile validation) Tj ET
+0.145 0.388 0.922 rg 55.00 490.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 487.89 Tm (Signup's visual strength indicator awards points for length thresholds \(6 and 10 characters\),) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 474.89 Tm (letters, numbers, and either special characters or mixed case; the score is feedback, not a) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 461.89 Tm (substitute for server-side policy.) Tj ET
+0.145 0.388 0.922 rg 55.00 446.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 443.89 Tm (Profile updates normalize strings, constrain item counts/lengths and cap summary word count in the) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 430.89 Tm (modular user router. The live legacy profile normalizer has its own implementation; validation) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 417.89 Tm (details can differ across the duplicated route files.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 389.89 Tm (9. File handling and publication lifecycle) Tj ET
+0.145 0.388 0.922 RG 2 w 53 381.89 m 542 381.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 358.89 Tm (Storage and checks) Tj ET
+0.145 0.388 0.922 rg 55.00 344.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 341.89 Tm (Multer disk storage writes PDF files under Backend/uploads using generated UUID names, maximum size) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 328.89 Tm (15 MB. News image files go under Backend/uploads/actualites with generated names and a 5 MB limit.) Tj ET
+0.145 0.388 0.922 rg 55.00 313.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 310.89 Tm (Allowed image MIME types: JPEG/JPG, PNG, WebP and GIF. Server validates both MIME type and file) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 297.89 Tm (signatures \(PDF header, PNG magic bytes, JPEG marker, GIF signature, WebP RIFF/WEBP markers\).) Tj ET
+0.145 0.388 0.922 rg 55.00 282.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 279.89 Tm (PDF uploads are stored with a relative filesystem path in Publication.pdfPath. Public API returns) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 266.89 Tm (hasPdf instead of the underlying path. News stores imageUrl as /uploads/actualites/<generated-name>.) Tj ET
+0.145 0.388 0.922 rg 55.00 251.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 248.89 Tm (PDF route verifies the publication exists and is approved \(except the coded admin path\), checks) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 235.89 Tm (private-access rules, verifies the physical file exists, increments downloadsCount and streams it.) Tj ET
+0.145 0.388 0.922 rg 55.00 220.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 217.89 Tm (The server statically exposes only image extensions under /uploads/actualites; PDFs are not exposed) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 204.89 Tm (through the static uploads route.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 182.89 Tm (Durability and deployment implications) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 165.89 Tm (Uploads are local filesystem assets, not object storage. A multi-instance or ephemeral deployment) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 151.89 Tm (must mount durable shared storage or migrate to object storage and update URLs/cleanup. Database) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 137.89 Tm (backups alone do not preserve the uploaded files.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 116.89 Tm (The modular fileUpload helper cleans up invalid signatures and has a reusable safeUnlink utility.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 102.89 Tm (The live legacy route contains separate upload handling, so confirm cleanup behavior and file) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 88.89 Tm (retention against the mounted implementation before changing deployment assumptions.) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 6338 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (9) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 773.89 Tm (10. Styling, UI libraries and assets) Tj ET
+0.145 0.388 0.922 RG 2 w 53 765.89 m 542 765.89 l S
+0.145 0.388 0.922 rg 55.00 749.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 746.89 Tm (Tailwind CSS 4 is imported through the Vite plugin. Frontend/src/index.css defines a light token) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 733.89 Tm (palette \(surface, text, primary, accent and error colors\), theme extensions, base typography and page) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 720.89 Tm (effects.) Tj ET
+0.145 0.388 0.922 rg 55.00 705.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 702.89 Tm (Fonts include local Geist Variable package and CSS imports for Inter and Plus Jakarta Sans. Google) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 689.89 Tm (Identity Services script is loaded in Frontend/index.html.) Tj ET
+0.145 0.388 0.922 rg 55.00 674.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 671.89 Tm (Lucide icons are used throughout pages; Motion, Three.js and Recharts are declared for animation,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 658.89 Tm (canvas visuals and charts. The homepage uses ParticleCanvas; exact usage is component-specific.) Tj ET
+0.145 0.388 0.922 rg 55.00 643.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 640.89 Tm (The component set includes Navbar, GoogleAuthButton, PublicationCard, PublicationsView,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 627.89 Tm (PdfViewerModal and expandable-card demos, plus ProfileReference sections and modal components.) Tj ET
+0.145 0.388 0.922 rg 55.00 612.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 609.89 Tm (Public assets include EI&TIC logo, favicon and icons. Vite defines @ as an alias for Frontend/src.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 591.89 Tm (Some generated or reference UI code may coexist with live page components. A dependency being) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 577.89 Tm (declared does not imply that it is used on every route.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 546.89 Tm (11. Configuration and local development) Tj ET
+0.145 0.388 0.922 RG 2 w 53 538.89 m 542 538.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 515.89 Tm (Environment variables \(names only; no secret values\)) Tj ET
+0.145 0.388 0.922 rg 55.00 501.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 498.89 Tm (Backend .env.example: PORT, APP_URL, JWT_SECRET, MONGO_URI, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 485.89 Tm (SMTP_HOST, SMTP_PORT, SMTP_SECURE, SMTP_USER, SMTP_PASSWORD, SMTP_FROM.) Tj ET
+0.145 0.388 0.922 rg 55.00 470.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 467.89 Tm (Frontend/.env.example: VITE_GOOGLE_CLIENT_ID.) Tj ET
+0.145 0.388 0.922 rg 55.00 452.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 449.89 Tm (APP_URL is used to build reset links and validate state-changing request origins; local default) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 436.89 Tm (documented in the example is the Vite origin. Never commit real credentials or share .env contents.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 414.89 Tm (Local startup) Tj ET
+0.969 0.976 0.988 rg 53.00 247.89 489.00 160.00 re f
+0.145 0.388 0.922 rg 53.00 247.89 3.00 160.00 re f
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 397.89 Tm (# From repository root: install root/server dependencies and frontend dependencies) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 385.89 Tm (npm install) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 373.89 Tm (npm --prefix Frontend install) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 361.89 Tm () Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 349.89 Tm (# Configure local values in root .env and Frontend/.env \(do not commit them\)) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 337.89 Tm (npm run dev) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 325.89 Tm () Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 313.89 Tm (# In another terminal, run the frontend dev server) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 301.89 Tm (npm --prefix Frontend run dev) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 289.89 Tm () Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 277.89 Tm (# Production frontend bundle) Tj ET
+0.063 0.137 0.247 rg BT /F1 8.3 Tf 1 0 0 1 66.00 265.89 Tm (npm run build) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 230.89 Tm (The backend starts on PORT \(default 5000\), connects to MONGO_URI before listening, and offers GET) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 216.89 Tm (/health. Vite's development proxy expects the API at localhost:5000. A separate frontend production) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 202.89 Tm (hosting/reverse-proxy arrangement is not defined by the root scripts; deploy the built Frontend/dist) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.5 Tf 1 0 0 1 54.00 188.89 Tm (assets and route /api and /uploads to the backend.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 157.89 Tm (12. Build, lint and deployment notes) Tj ET
+0.145 0.388 0.922 RG 2 w 53 149.89 m 542 149.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 126.89 Tm (Commands available in manifests) Tj ET
+0.145 0.388 0.922 rg 55.00 112.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 109.89 Tm (npm run dev \(root\): start the Express server.) Tj ET
+0.145 0.388 0.922 rg 55.00 94.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 91.89 Tm (npm run build \(root\): run Frontend build.) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 7362 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (10) Tj ET
+0.145 0.388 0.922 rg 55.00 778.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 775.89 Tm (npm --prefix Frontend run dev: Vite development server.) Tj ET
+0.145 0.388 0.922 rg 55.00 760.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 757.89 Tm (npm --prefix Frontend run build: TypeScript build followed by Vite bundling.) Tj ET
+0.145 0.388 0.922 rg 55.00 742.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 739.89 Tm (npm --prefix Frontend run lint: Oxlint.) Tj ET
+0.145 0.388 0.922 rg 55.00 724.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 721.89 Tm (npm --prefix Frontend run preview: serve the built frontend for local preview.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 699.89 Tm (Production considerations) Tj ET
+0.145 0.388 0.922 rg 55.00 685.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 682.89 Tm (Set a strong private JWT_SECRET, production MONGO_URI, HTTPS APP_URL, Google Identity client) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 669.89 Tm (configuration and SMTP credentials; configure trusted reverse proxy and frontend routing.) Tj ET
+0.145 0.388 0.922 rg 55.00 654.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 651.89 Tm (Ensure the application process can write Backend/uploads and that persistent storage/backups include) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 638.89 Tm (this directory. Review upload/file lifecycle and retention.) Tj ET
+0.145 0.388 0.922 rg 55.00 623.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 620.89 Tm (Use one canonical API route composition. Currently legacy auth.js duplicates behavior also found in) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 607.89 Tm (modular route files, so future changes can diverge.) Tj ET
+0.145 0.388 0.922 rg 55.00 592.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 589.89 Tm (Confirm browser cookie behavior, APP_URL origin checks, HTTPS Secure cookie setting, SMTP delivery,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 576.89 Tm (MongoDB indexes and admin seeding/role management in the target environment.) Tj ET
+0.145 0.388 0.922 rg 55.00 561.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 558.89 Tm (No test script is declared in the visible package manifests. The build and lint scripts exist for the) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 545.89 Tm (frontend; add/maintain automated API and browser tests as a separate engineering task.) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 517.89 Tm (13. Source tree map and runtime caveats) Tj ET
+0.145 0.388 0.922 RG 2 w 53 509.89 m 542 509.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 486.89 Tm (Main code locations) Tj ET
+0.145 0.388 0.922 rg 55.00 472.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 469.89 Tm (Backend/server.js: Express bootstrap, security middleware, static images, health route, origin) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 456.89 Tm (policy, database startup and active router mount.) Tj ET
+0.145 0.388 0.922 rg 55.00 441.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 438.89 Tm (Backend/config/db.js: MongoDB connection. Backend/models/: User, Publication, Actualite,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 425.89 Tm (Notification, PendingUserRequest, PublicationAccessRequest and RevokedToken.) Tj ET
+0.145 0.388 0.922 rg 55.00 410.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 407.89 Tm (Backend/routes/auth.js: live combined API router \(authentication, profiles, admin moderation,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 394.89 Tm (publications, news, notifications and PDF access\).) Tj ET
+0.145 0.388 0.922 rg 55.00 379.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 376.89 Tm (Backend/routes/auth.routes.js, publication.routes.js, user.routes.js: split route implementations) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 363.89 Tm (currently not composed by server.js.) Tj ET
+0.145 0.388 0.922 rg 55.00 348.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 345.89 Tm (Backend/middleware/: authentication, publication-PDF authorization and shared error/ObjectId helpers.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 332.89 Tm (Backend/utils/: reusable auth helpers and upload validation.) Tj ET
+0.145 0.388 0.922 rg 55.00 317.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 314.89 Tm (Frontend/src/App.tsx and main.tsx: app bootstrap and routing. Frontend/src/Pages/: route pages.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 301.89 Tm (Frontend/src/Components/: shared UI. Frontend/src/ProfileReference/: profile sections and modal) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 288.89 Tm (components.) Tj ET
+0.145 0.388 0.922 rg 55.00 273.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 270.89 Tm (Frontend/src/types.ts and data.ts: frontend data contracts and static content.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 257.89 Tm (Frontend/vite.config.ts, tsconfig*.json, components.json and .oxlintrc.json configure build/tooling.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 235.89 Tm (Repository snapshot cautions) Tj ET
+0.145 0.388 0.922 rg 55.00 221.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 218.89 Tm (The working tree contained many pre-existing modified, deleted and untracked files at documentation) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 205.89 Tm (time. This guide describes files visible in the checkout and does not claim they are all committed or) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 192.89 Tm (deployed.) Tj ET
+0.145 0.388 0.922 rg 55.00 177.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 174.89 Tm (Both Acceuil.tsx and Accueil.tsx exist; App.tsx imports Acceuil.tsx. The duplicate should be treated) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 161.89 Tm (as a separate/possibly stale page unless confirmed otherwise.) Tj ET
+0.145 0.388 0.922 rg 55.00 146.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 143.89 Tm (Some pages/components are static or use fallback/demo data. The presence of a page, package, route) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 130.89 Tm (module or model does not prove that it is wired into the live runtime.) Tj ET
+0.145 0.388 0.922 rg 55.00 115.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 112.89 Tm (The repository root also contains temporary migration/test scripts. Their presence is not equivalent) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 99.89 Tm (to a supported production migration command.) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 5565 >>
+stream
+0.145 0.388 0.922 rg 0 829.89 595.28 12 re f
+0.063 0.137 0.247 rg BT /F2 8 Tf 1 0 0 1 53 798.89 Tm (EI&TIC  |  WEBSITE TECHNICAL GUIDE) Tj ET
+0.851 0.886 0.937 RG 0.7 w 53 790.89 m 542 790.89 l S
+0.851 0.886 0.937 RG 0.7 w 53 30.89 m 542 30.89 l S
+0.322 0.380 0.455 rg BT /F1 8 Tf 1 0 0 1 53 14.89 Tm (Source-based architecture guide; secrets omitted.) Tj ET
+0.322 0.380 0.455 rg BT /F2 8 Tf 1 0 0 1 520 14.89 Tm (11) Tj ET
+0.063 0.137 0.247 rg BT /F2 19 Tf 1 0 0 1 53.00 773.89 Tm (14. Operational observations and verification checklist) Tj ET
+0.145 0.388 0.922 RG 2 w 53 765.89 m 542 765.89 l S
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 742.89 Tm (Read this before exposing the site publicly) Tj ET
+0.145 0.388 0.922 rg 55.00 728.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 725.89 Tm (The active public researcher endpoints select contact fields such as email and phoneNumber. Confirm) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 712.89 Tm (that exposing those fields publicly is intended; otherwise narrow the public projection.) Tj ET
+0.145 0.388 0.922 rg 55.00 697.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 694.89 Tm (Active-user count is stored in a process-local Map and considers users seen in the last five minutes.) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 681.89 Tm (It resets on restart and is not distributed across server instances.) Tj ET
+0.145 0.388 0.922 rg 55.00 666.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 663.89 Tm (Backend/middleware/errorHandler.js exports shared 404/error handlers, but server.js does not) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 650.89 Tm (currently attach them. Active routes handle many errors locally; verify unhandled route/error) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 637.89 Tm (behavior.) Tj ET
+0.145 0.388 0.922 rg 55.00 622.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 619.89 Tm (Admin dashboard and client route guards are UX controls, not security boundaries; server-side role) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 606.89 Tm (checks are required and present on admin handlers. Review every new endpoint the same way.) Tj ET
+0.145 0.388 0.922 rg 55.00 591.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 588.89 Tm (The auth cookie is HttpOnly, limiting JavaScript access, but review deployment proxy settings, HTTPS,) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 575.89 Tm (CSRF/origin strategy and cookie behavior for the actual hosting topology.) Tj ET
+0.145 0.388 0.922 rg 55.00 560.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 557.89 Tm (Signup creates user and pending request as separate database operations, with explicit rollback if) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 544.89 Tm (pending request or verification email fails. Multi-document consistency could be strengthened with) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 531.89 Tm (MongoDB transactions where supported.) Tj ET
+0.059 0.463 0.431 rg BT /F2 11 Tf 1 0 0 1 54.00 509.89 Tm (Practical verification checklist) Tj ET
+0.145 0.388 0.922 rg 55.00 495.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 492.89 Tm (1. Set environment values locally without committing secrets; confirm MongoDB connectivity and GET) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 479.89 Tm (/health.) Tj ET
+0.145 0.388 0.922 rg 55.00 464.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 461.89 Tm (2. Build frontend with npm run build and run npm --prefix Frontend run lint.) Tj ET
+0.145 0.388 0.922 rg 55.00 446.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 443.89 Tm (3. Exercise register -> email code -> sign in -> GET /me -> logout; test local and Google identity) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 430.89 Tm (separately.) Tj ET
+0.145 0.388 0.922 rg 55.00 415.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 412.89 Tm (4. Test all three roles against profile edit, publication/news submission, admin queues and) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 399.89 Tm (disabled-user behavior.) Tj ET
+0.145 0.388 0.922 rg 55.00 384.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 381.89 Tm (5. Submit valid and malformed PDF/image files; check size, signatures, public visibility, private) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 368.89 Tm (request/approval/rejection and download count.) Tj ET
+0.145 0.388 0.922 rg 55.00 353.89 4.00 4.00 re f
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 350.89 Tm (6. Verify file persistence, backup/restore, notification ownership, public researcher data projection) Tj ET
+0.094 0.141 0.200 rg BT /F1 9.15 Tf 1 0 0 1 67.00 337.89 Tm (and origin/cookie policy in the deployment environment.) Tj ET
+0.937 0.961 1.000 rg 53.00 259.89 489.00 69.00 re f
+0.961 0.620 0.043 rg 53.00 259.89 3.00 69.00 re f
+0.063 0.137 0.247 rg BT /F2 9.4 Tf 1 0 0 1 65.00 314.89 Tm (Coverage statement) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 299.89 Tm (This is a source-based technical map, not an exhaustive line-by-line specification or a security) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 286.89 Tm (certification. Endpoint behavior and production configuration should be revalidated whenever) Tj ET
+0.094 0.141 0.200 rg BT /F1 9 Tf 1 0 0 1 65.00 273.89 Tm (runtime wiring changes.) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Title (Website Technical Guide - EI&TIC) /Author (Source tree documentation) /Subject (Frontend, backend, API, data, algorithms and runtime) /Producer (Project-local Node.js PDF generator) >>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000020 00000 n 
+0000000069 00000 n 
+0000000195 00000 n 
+0000000292 00000 n 
+0000000394 00000 n 
+0000000536 00000 n 
+0000002849 00000 n 
+0000002991 00000 n 
+0000009088 00000 n 
+0000009231 00000 n 
+0000015983 00000 n 
+0000016127 00000 n 
+0000022998 00000 n 
+0000023142 00000 n 
+0000030036 00000 n 
+0000030180 00000 n 
+0000037502 00000 n 
+0000037646 00000 n 
+0000044463 00000 n 
+0000044607 00000 n 
+0000051938 00000 n 
+0000052082 00000 n 
+0000058473 00000 n 
+0000058617 00000 n 
+0000066032 00000 n 
+0000066176 00000 n 
+0000071794 00000 n 
+trailer
+<< /Size 28 /Root 1 0 R /Info 27 0 R >>
+startxref
+72006
+%%EOF
